@@ -1,11 +1,20 @@
 {
   "name": "@familyboat/familyboat-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "css, ui, assets fro familyboat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "familyboat",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/complemention/familyboat-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/complemention/familyboat-ui/issues"
+  },
+  "homepage": "https://github.com/complemention/familyboat-ui#readme",
+  "dependencies": {}
 }
