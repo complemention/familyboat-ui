@@ -1,0 +1,236 @@
+:root {
+  /* --fb-global--concept */
+  --fb-global--font-size-root: 16; /* for fonts */
+  --fb-global--space-size-root: 16; /* for spaces */
+
+  /* Colors */
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* Background color */
+  --fb-global--BackgroundColor--100: var(--fb-color-white);
+  --fb-global--BackgroundColor--200: var(--fb-color-black-200);
+
+  /* theme */
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* light theme */
+  --fb-global--BackgroundColor--light-100: var(--fb-color-white);
+  --fb-global--BackgroundColor--light-200: var(--fb-color-black-100);
+  --fb-global--BackgroundColor--light-300: var(--fb-color-black-200);
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* dark theme */
+  --fb-global--BackgroundColor--dark-100: var(--fb-color-black-700);
+  --fb-global--BackgroundColor--dark-200: var(--fb-color-black-800);
+  --fb-global--BackgourndColor--dark-300: var(--fb-color-black-850);
+  --fb-global--BackgourndColor--dark-400: var(--fb-color-black-900);
+
+  /* Text color */
+  /* --fb-global--PropertyCamelCase--modifier */
+  --fb-global--Color--100: var(--fb-color-black-900);
+  --fb-global--Color--200: var(--fb-color-black-600);
+  --fb-global--Color--300: var(--fb-color-black-800);
+  --fb-global--Color--400: var(--fb-color-black-500);
+
+  /* theme */
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* light theme */
+  --fb-global--Color--light-100:      var(--fb-color-white);
+  --fb-global--Color--light-200:      var(--fb-color-black-200);
+  --fb-global--Color--light-300:      var(--fb-color-black-300);
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* dark theme */
+  --fb-global--Color--dark-100:      var(--fb-color-black-900);
+  --fb-global--Color--dark-200:      var(--fb-color-black-600);
+
+  /* Status color */
+  /* --fb-global--concept--modifier */
+  /* active */
+  --fb-global--active-color--100:   var(--fb-color-blue-400);
+  --fb-global--active-color--200:   var(--fb-color-blue-100);
+  --fb-global--active-color--300:   var(--fb-color-blue-300);
+  --fb-global--active-color--400:   var(--fb-color-blue-200);
+
+  /* --fb-global--concept--modifier */
+  /* disabled */
+  --fb-global--disabled-color--100: var(--fb-color-black-600);
+  --fb-global--disabled-color--200: var(--fb-color-black-300);
+  --fb-global--disabled-color--300: var(--fb-color-black-200);
+
+  /* --fb-global--concept--modifier */
+  /* theme color */
+  --fb-global--primary-color--100:         var(--fb-color-blue-400);
+  --fb-global--primary-color--200:         var(--fb-color-blue-500);
+  --fb-global--secondary-color--100:       var(--fb-color-black-600);
+  --fb-global--default-color--100:         var(--fb-color-cyan-200);
+  --fb-global--default-color--200:         var(--fb-color-cyan-300);
+  --fb-global--default-color--300:         var(--fb-color-cyan-500);
+  --fb-global--success-color--100:         var(--fb-color-green-500);
+  --fb-global--success-color--200:         var(--fb-color-green-600);
+  --fb-global--info-color--100:            var(--fb-color-blue-300);
+  --fb-global--info-color--200:            var(--fb-color-blue-600);
+  --fb-global--warning-color--100:         var(--fb-color-gold-400);
+  --fb-global--warning-color--200:         var(--fb-color-gold-600);
+  --fb-global--danger-color--100:          var(--fb-color-red-100);
+  --fb-global--danger-color--200:          var(--fb-color-red-200);
+  --fb-global--danger-color--300:          var(--fb-color-red-400);
+
+  /* --fb-global--concept--modifier */
+  /* light theme and dark theme */
+  --fb-global--primary-color--light-100:   var(--fb-color-blue-200);
+  --fb-global--primary-color--dark-100:    var(--fb-color-blue-400);
+
+  /* Shadows */
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* small */
+  --fb-global--BoxShadow--sm: 0 1px 2px 0 var(--fb-color-black-1000), 0 0 2px 0 var(--fb-color-black-1000);
+  --fb-global--BoxShadow--sm-top: 0 -2px 4px -1px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--sm-right: 2px 0 4px -1px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--sm-bottom: 0 2px 4px -1px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--sm-left: -2px 0 4px -1px var(--fb-color-black-1000);
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* medium */
+  --fb-global--BoxShadow--md: 0 4px 8px 0 var(--fb-color-black-1000), 0 0 4px 0 var(--fb-color-black-1000);
+  --fb-global--BoxShadow--md-top: 0 -8px 8px -6px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--md-right: 8px 0 8px -6px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--md-bottom: 0 8px 8px -6px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--md-left: -8px 0 8px -6px var(--fb-color-black-1000);
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* large */
+  --fb-global--BoxShadow--lg: 0 8px 16px 0 var(--fb-color-black-1000), 0 0 6px 0 var(--fb-color-black-1000);
+  --fb-global--BoxShadow--lg-top: 0 -12px 12px -8px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--lg-right: 12px 0 12px -8px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--lg-bottom: 0 12px 12px -8px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--lg-left: -12px 0 12px -8px var(--fb-color-black-1000);
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* x-large */
+  --fb-global--BoxShadow--xl: 0 16px 32px 0 var(--fb-color-black-1000), 0 0 8px 0 var(--fb-color-black-1000);
+  --fb-global--BoxShadow--xl-top: 0 -16px 16px -8px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--xl-right: 16px 0 16px -8px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--xl-bottom: 0 16px 16px -8px var(--fb-color-black-1000);
+  --fb-global--BoxShadow--xl-left: -16px 0 16px -8px var(--fb-color-black-1000);
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* inset */
+  --fb-global--BoxShadow--inset: inset 0 0 calc(10 / var(--fb-global--space-size-root) * 1rem) var(--fb-color-black-1000);
+
+  /* --fb-global--concept--modifier */
+  /* Spacers */
+  --fb-global--spacer--xs: calc(4 / var(--fb-global--space-size-root) * 1rem);      /* Orange */
+  --fb-global--spacer--sm: calc(8 / var(--fb-global--space-size-root) * 1rem);      /* Light green */
+  --fb-global--spacer--md: calc(16 / var(--fb-global--space-size-root) * 1rem);     /* Dark green */
+  --fb-global--spacer--lg: calc(24 / var(--fb-global--space-size-root) * 1rem);     /* Dark Blue */
+  --fb-global--spacer--xl: calc(32 / var(--fb-global--space-size-root) * 1rem);     /* Light Blue */
+  --fb-global--spacer--2xl: calc(48 / var(--fb-global--space-size-root) * 1rem);    /* Light Purple */
+  --fb-global--spacer--3xl: calc(64 / var(--fb-global--space-size-root) * 1rem);    /* Dark Purple */
+  --fb-global--spacer--4xl: calc(80 / var(--fb-global--space-size-root) * 1rem);    /* Dark magenta */
+
+  /* --fb-global--concept--modifier */
+  /* Form spacer - only use in forms */
+  --fb-global--spacer--form-element: calc(6 / var(--fb-global--space-size-root) * 1rem);
+
+  /* --fb-global--concept--modifier */
+  /* Gutter */
+  --fb-global--gutter: var(--fb-global--spacer--md);
+  --fb-global--gutter--md: var(--fb-global--spacer--lg);
+
+  /* --fb-global--concept--modifier */
+  /* Z-Index */
+  --fb-global--ZIndex--xs: 100;
+  --fb-global--ZIndex--sm: 200;
+  --fb-global--ZIndex--md: 300;
+  --fb-global--ZIndex--lg: 400;
+  --fb-global--ZIndex--xl: 500;
+  --fb-global--ZIndex--2xl: 600;
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* Borders */
+  --fb-global--BorderWidth--sm:     1px;
+  --fb-global--BorderWidth--md:     2px;
+  --fb-global--BorderWidth--lg:     3px;
+  --fb-global--BorderWidth--xl:     4px;
+  --fb-global--BorderColor--100:    var(--fb-color-black-300);
+  --fb-global--BorderColor--200:    var(--fb-color-black-500);
+  --fb-global--BorderColor--300:    var(--fb-color-black-200);
+  --fb-global--BorderColor--dark-100:   var(--fb-color-black-300);
+  --fb-global--BorderColor--light-100:  var(--fb-color-black-400);
+  --fb-global--BorderRadius--sm:        3px;
+  --fb-global--BorderRadius--lg:        30em;  /* This is a sufficiently large number to ensure in most cases that the ends are evenly rounded. */
+
+  /* --fb-global--concept--PropertyCamelCase--modifier */
+  /* Icons */
+  --fb-global--icon--Color--light: var(--fb-color-black-600);
+  --fb-global--icon--Color--dark: var(--fb-color-black-900);
+  --fb-global--icon--FontSize--sm: calc(10 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--icon--FontSize--md: calc(18 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--icon--FontSize--lg: calc(24 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--icon--FontSize--xl: calc(54 / var(--fb-global--font-size-root) * 1rem);
+
+  /* Fonts */
+  /* --fb-global--PropertyCamelCase--modifier--state */
+  /* Font family */
+  --fb-global--FontFamily--sans-serif: '"RedHatText", "Overpass", overpass, helvetica, arial, sans-serif';
+  --fb-global--FontFamily--heading--sans-serif: '"RedHatDisplay", "Overpass", overpass, helvetica, arial, sans-serif';
+  --fb-global--FontFamily--monospace: '"Liberation Mono", consolas, "SFMono-Regular", menlo, monaco, "Courier New", monospace';
+  --fb-global--FontFamily--overpass--sans-serif: '"overpass", overpass, "open sans", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+  --fb-global--FontFamily--overpass--monospace: '"overpass-mono", overpass-mono, "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace';
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* Font size */
+  --fb-global--FontSize--4xl: calc(36 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--FontSize--3xl: calc(28 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--FontSize--2xl: calc(24 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--FontSize--xl: calc(20 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--FontSize--lg: calc(18 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--FontSize--md: calc(16 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--FontSize--sm: calc(14 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--FontSize--xs: calc(12 / var(--fb-global--font-size-root) * 1rem);
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* Font weight */
+  --fb-global--FontWeight--light: 300;
+  --fb-global--FontWeight--normal: 400;
+  --fb-global--FontWeight--bold: 700;
+  --fb-global--FontWeight--semi-bold: var(--fb-global--FontWeight--bold); /* Just for legacy support while supporting Overpass */
+  --fb-global--FontWeight--overpass--semi-bold: 500;
+  --fb-global--FontWeight--overpass--bold: 600;
+
+  /* --fb-global--PropertyCamelCase--modifier */
+  /* Line height */
+  --fb-global--LineHeight--sm: 1.3;
+  --fb-global--LineHeight--md: 1.5;
+
+  /* --fb-global--concept--PropertyCamelCase--modifier--state */
+  /* Links */
+  --fb-global--link--Color:                  var(--fb-global--primary-color--100);
+  --fb-global--link--Color--hover:           var(--fb-global--primary-color--200);
+  --fb-global--link--Color--light:           var(--fb-global--active-color--300);
+  --fb-global--link--Color--light--hover:    var(--fb-global--active-color--400);
+  --fb-global--link--Color--dark:            var(--fb-global--primary-color--100);
+  --fb-global--link--Color--dark--hover:     var(--fb-global--primary-color--200);
+  --fb-global--link--Color--visited:         var(--fb-color-purple-600);
+  --fb-global--link--TextDecoration:         none;
+  --fb-global--link--TextDecoration--hover:  underline;
+
+  /* --fb-global--PropertyCamelCase */
+  /* List */
+  --fb-global--ListStyle: disc outside;
+
+  /* --fb-global--PropertyCamelCase */
+  /* Transitions */
+  --fb-global--Transition: all 250ms cubic-bezier(.42, 0, .58, 1);
+  --fb-global--TimingFunction: cubic-bezier(.645, .045, .355, 1);
+  --fb-global--TransitionDuration: 250ms;
+
+  /* --fb-global--concept--modifier */
+  /* Arrow size (used for tooltips, popovers, etc.) */
+  --fb-global--arrow--width: calc(15 / var(--fb-global--font-size-root) * 1rem);
+  --fb-global--arrow--width-lg: calc(25 / var(--fb-global--font-size-root) * 1rem);
+
+  /* --fb-global--concept--PropertyCamelCase */
+  /* A11y */
+  --fb-global--target-size--MinWidth: 44px;
+  --fb-global--target-size--MinHeight: 44px;
+}

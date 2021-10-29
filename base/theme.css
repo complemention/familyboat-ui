@@ -1,0 +1,27 @@
+.fb-t-dark.fb-m-transparent {
+  background-color: transparent;
+}
+
+.fb-t-dark.fb-m-opaque-100 {
+  background-color: var(--fb-color-black-800);
+}
+
+.fb-t-dark.fb-m-opaque-200 {
+  background-color: var(--fb-color-black-900);
+}
+
+.fb-t-light.fb-m-transparent {
+  background-color: transparent;
+}
+
+.fb-t-light.fb-m-opaque-100 {
+  background-color: var(--fb-color-white);
+}
+
+.fb-t-light.fb-m-opaque-200 {
+  background-color: var(--fb-color-black-100);
+}
+
+.fb-t-light.fb-m-opaque-300 {
+  background-color: var(--fb-color-black-200);
+}

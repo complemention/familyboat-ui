@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+  <head>
+    <title>familyboat ui: flex</title>
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>
+          <i>modify flex container</i>
+        </legend>
+        <div>
+          <label for="display">
+            <i>display</i>
+            <select name='display' id='display'>
+              <option value="flex">flex</option>
+              <option value="inline-flex">inline-flex</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="direction">
+            <i>flex-direction</i>
+            <select name="flex-direction" id="direction">
+              <option value="row">row</option>
+              <option value="row-reverse">row-reverse</option>
+              <option value="column">column</option>
+              <option value="column-reverse">column-reverse</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="wrap">
+            <i>flex-wrap</i>
+            <select name="flex-wrap" id="wrap">
+              <option value="wrap">wrap</option>
+              <option value="nowrap">nowrap</option>
+              <option value="wrap-reverse">wrap-reverse</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="items">
+            <i>align-items</i>
+            <select name="align-items" id="items">
+              <option value="stretch">stretch</option>
+              <option value="center">center</option>
+              <option value="flex-start">flex-start</option>
+              <option value="flex-end">flex-end</option>
+              <option value="baseline">baseline</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="justify">
+            <i>justify-content</i>
+            <select name="justify-content" id="justify">
+              <option value="stretch">stretch</option>
+              <option value="space-between">space-between</option>
+              <option value="space-around">space-around</option>
+              <option value="center">center</option>
+              <option value="flex-start">flex-start</option>
+              <option value="flex-end">flex-end</option>
+              <option value="baseline">baseline</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="align">
+            <i>align-content</i>
+            <select name="align-content" id="align">
+              <option value="stretch">stretch</option>
+              <option value="space-between">space-between</option>
+              <option value="space-around">space-around</option>
+              <option value="center">center</option>
+              <option value="flex-start">flex-start</option>
+              <option value="flex-end">flex-end</option>
+              <option value="baseline">baseline</option>
+            </select>
+          </label>
+        </div>
+      </fieldset>
+      <input type="submit" value="modify" id="container" />
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>create flex item</legend>
+        <div>
+          <label for="grow">
+            <i>flex-grow</i>
+            <input type="number" min="0" step="0.1" name="flex-grow" id="grow" />
+          </label>
+        </div>
+        <div>
+          <label for="shrink">
+            <i>flex-shrink</i>
+            <input type="number" min="0" step="0.1" name="flex-shrink" id="shrink" />
+          </label>
+        </div>
+        <div>
+          <label for="basis">
+            <i>flex-basis</i>
+            <input type="text" name="basis" id="flex-basis" />
+          </label>
+        </div>
+        <div>
+          <label for="self">
+            <i>align-self</i>
+            <select name="align-self" id="self">
+              <option value="stretch">stretch</option>
+              <option value="center">center</option>
+              <option value="flex-start">flex-start</option>
+              <option value="flex-end">flex-end</option>
+              <option value="baseline">baseline</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="content">
+            <i>content</i>
+            <textarea name="content" id="content"></textarea> 
+          </label>
+        </div>
+      </fieldset>
+      <input type="submit" value="create" id="item" />
+      <button type="button">clear</button>
+    </form>
+    <div id="flex-container" class="fb-l-flex">
+
+    </div>
+  </body>
+</html>

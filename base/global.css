@@ -1,0 +1,126 @@
+/* Reset */
+
+/* Based on minireset.css v0.0.3 | MIT License github.com/jgthms/minireset.css */
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: var(--fb-global--FontWeight--normal);
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: var(--fb-global--LineHeight--md);
+  color: var(--fb-global--Color--100);
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+/* familyboat base style */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+body {
+  font-family: var(--fb-global--FontFamily--sans-serif);
+  font-size: var(--fb-global--FontSize--md);
+  font-weight: var(--fb-global--FontWeight--normal);
+  line-height: var(--fb-global--LineHeight--md);
+  text-align: left;
+  background-color: var(--fb-global--BackgroundColor--100);
+}
+
+/* link style */
+
+a {
+  font-weight: var(--fb-global--link--FontWeight);
+  color: var(--fb-global--link--Color);
+  text-decoration: var(--fb-global--link--TextDecoration);
+}
+
+a:hover {
+  --fb-global--link--Color: var(--fb-global--link--Color--hover);
+  --fb-global--link--TextDecoration: var(--fb-global--link--TextDecoration--hover)
+}
+
+button,
+a {
+  cursor: pointer;
+}

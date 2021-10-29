@@ -1,0 +1,24 @@
+.fb-l-flex {
+  --fb-l-flex--Display: flex;
+  --fb-l-felx--FlexWrap: wrap;
+  --fb-l-flex--AlignItems: baseline;
+
+  --fb-l-flex--spacer-base: var(--fb-global--spacer--md);
+  --fb-l-flex--spacer: var(--fb-l-flex--spacer-base);
+
+  display: var(--fb-l-flex--Display);
+  flex-wrap: var(--fb-l-felx--FlexWrap);
+  align-items: var(--fb-l-flex--AlignItems);
+
+  column-gap: var(--fb-l-flex--spacer-base);
+  row-gap: var(--fb-l-flex--spacer-base);
+}
+
+.fb-l-flex:last-child {
+  --fb-l-flex--spacer: 0;
+}
+
+/* item */
+.fb-l-flex > * {
+  max-width: 100%;
+}
